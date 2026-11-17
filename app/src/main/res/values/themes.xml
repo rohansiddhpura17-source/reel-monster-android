@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.ReelMonster" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#EDFAF4</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

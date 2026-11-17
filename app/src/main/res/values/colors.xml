@@ -1,0 +1,8 @@
+<resources>
+    <color name="mint_primary">#38C88A</color>
+    <color name="mint_dark">#0F3E2E</color>
+    <color name="mint_surface">#EDFAF4</color>
+    <color name="mint_background">#F4FBF7</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="purple_accent">#8B5CF6</color>
+</resources>

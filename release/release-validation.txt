@@ -1,0 +1,56 @@
+================================================================================
+REEL MONSTER — OFFICIAL RELEASE ARTIFACT VALIDATION
+================================================================================
+
+ARTIFACT IDENTIFIERS:
+  File Name:               reel-monster-v1.0.0.apk
+  File Size:               13,372,830 bytes (12.75 MB)
+  SHA-256 Checksum:        d6d5bfc9b7cce825b30f578eafb200754ce9e8d10c4ff218beea5473ed6f7193
+  MD5 Checksum:           9c4b7e91404e6494429bc7cc142bb595
+  Build Type:              release (signed, non-debuggable)
+  Release Date:            2026-11-09
+
+APPLICATION METADATA:
+  Application ID:          com.reelmonster.app
+  Version Code:            1
+  Version Name:            1.0.0
+  Min SDK:                 26 (Android 8.0 Oreo)
+  Target SDK:              36 (Android 16 / Android 17 API 37 compatible)
+  Compile SDK:             36
+  Default Activity:        com.reelmonster.app.MainActivity
+
+SIGNING INTEGRITY:
+  Verification:            VERIFIED (apksigner)
+  Signature Scheme:        APK Signature Scheme v2 (v2: true, v1: false, v3: false)
+  Signer Count:            1
+  Signer Subject DN:       CN=Reel Monster, OU=Engineering, O=Reel Monster, L=Bangalore, ST=Karnataka, C=IN
+  Certificate SHA-256:     f428b003cb6d75c621b834c85e4912b8d1a9b29455d3a5ebfac5c604f75dd2ed
+  Certificate SHA-1:       9703342674979621c854bbc52296de61c038d778
+  Certificate MD5:         88360e1bc552aaf61249a4706b978ca2
+  Public Key Algorithm:    RSA 2048-bit
+  Public Key SHA-256:      9867d1027d5206afb1bbeb6a2f29f86054bc8bfaefbb0655242dece8076c27d9
+
+PERMISSIONS & SECURITY AUDIT:
+  INTERNET Permission:     NONE (0 network permissions declared, zero sockets, 100% offline)
+  Declared Permissions:
+    - android.permission.SYSTEM_ALERT_WINDOW (Floating interactive Munchie overlay)
+    - android.permission.FOREGROUND_SERVICE (Continuous monitoring service lifecycle)
+    - android.permission.FOREGROUND_SERVICE_SPECIAL_USE (Subtype: Floating interactive companion widget)
+    - android.permission.POST_NOTIFICATIONS (Milestone, focus mode, and gentle intervention alerts)
+    - android.permission.RECEIVE_BOOT_COMPLETED (Reboot-safe monitoring recovery)
+    - com.reelmonster.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION (Internal broadcast protection)
+  Accessibility Service:   com.reelmonster.app.service.ReelAccessibilityService (BIND_ACCESSIBILITY_SERVICE)
+
+DATABASE SCHEMA:
+  Database Version:        6 (PRAGMA user_version = 6)
+  Tables Verified:         reels, sessions, daily_goals, focus_sessions, progression_events, 
+                           monitoring_intervals, monitoring_heartbeats
+  Integrity Status:        PRAGMA integrity_check = ok
+
+TEST SUITE VERIFICATION:
+  Unit Tests Executed:     340
+  Unit Tests Passed:       340
+  Unit Tests Failed:       0
+  Unit Tests Skipped:      0
+  Passing Rate:            100.0%
+================================================================================

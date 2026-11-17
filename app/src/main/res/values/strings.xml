@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Reel Monster</string>
+    <string name="tagline">Your scrolling has a monster</string>
+    <string name="mascot_name">Munchie</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_stats">Stats</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+    <string name="accessibility_service_description">Reel Monster uses accessibility events locally to detect when Instagram Reels or YouTube Shorts are actively scrolling. No keystrokes, personal data, or video content are ever read or transmitted.</string>
+</resources>
